@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Form</title>
+<title>Formularz</title>
 </head>
 <body>
 
-<h1>Form</h1>
+<h1>Formularz</h1>
 <p>Imie</p>
 <form>
-<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..."><br><br>
-</form>
+<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..." required><br><br>
+
 <p>Nazwisko</p>
 <form>
-<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..."><br><br>
-</form>
-</form>
+<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..." required><br><br>
+<p>Ile masz lat</p>
+<input type = "number"  placeholder="Wpisz tutaj..." required><br><br>
+
 
 <br>
 
 
 <label>
-    <input type="radio" name="plec" value="m"> Mężczyzna
+    <input type="radio" name="plec" value="m" required> Mężczyzna
   </label>
   
    <label>
-    <input type="radio" name="plec" value="k"> Kobieta
+    <input type="radio" name="plec" value="k" required> Kobieta
   </label>
 
   <br>
@@ -34,38 +35,38 @@
 
 <p>Adres</p>
 <form>
-<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..."><br><br>
-</form>
+<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..." required><br><br>
+
 <p>Kraj</p>
 <form>
 <select>
 <option></option>
-<option>Ukraine</option>
+<option>Ukraina</option>
 <option>USA</option>
-<option>Poland</option>
-<option>Belarus</option>
+<option>Polska</option>
+<option>Białoruś</option>
 <option>Austria</option>
-<option>France</option>
-<option>Spain</option>
+<option>Francja</option>
+<option>Hiszpania</option>
 </select>
-</form>
+
 <p>Numer tel.</p>
 <form>
-<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..."><br><br>
-</form>
+<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..." required><br><br>
+
 <p>E-mail</p>
 <form>
-<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..."><br><br>
-</form>
+<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..." required><br><br>
+
 <p>Hasło</p>
 <form>
-<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..."><br><br>
-</form>
+<input type="text" id="fname" name="fname" placeholder="Wpisz tutaj..." required><br><br>
+
 <form action="...">
-	<input type="checkbox" name=" name " value=" value "> Zgoda na warunki
+	<input type="checkbox" name=" name " value=" value " required> Zgoda na warunki
 
-    <button type="reset">Zresetuj</button>
-
+    <br><br><button type="reset">Zresetuj</button>
+    <button type="submit">Wyslij</button>
 </form>
 </body>
 </html>
